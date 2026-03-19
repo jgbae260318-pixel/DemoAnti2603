@@ -1,0 +1,260 @@
+﻿
+> demoboardtmp@0.1.0 build
+> next build
+
+node.exe : ??Warning: N
+ext.js inferred your wo
+rkspace root, but it ma
+y not be correct.
+위치 줄:1 문자:1
++ & "C:\Program Files\n
+odejs/node.exe" "C:\Pro
+gram Files\nodejs/node_
+mo ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (??Warning: Ne   
+ xt...not be correc    
+t.:String) [], Rem    o
+teException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ We detected multiple l
+ockfiles and selected t
+he directory of C:\work
+Anti\package-lock.json 
+as the root directory.
+ To silence this warnin
+g, set `turbopack.root`
+ in your Next.js config
+, or consider removing 
+one of the lockfiles if
+ it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more informatio
+n.
+ Detected additional lo
+ckfiles: 
+   * C:\workAnti\DemoBo
+ard\package-lock.json
+
+??Next.js 16.2.0 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build 
+failed with 2 errors:
+./DemoBoard/src/app/log
+in/page.tsx:11:1
+Module not found: Can't
+ resolve '@/components/
+ui/form'
+  [90m 9 |[0m
+  [90m10 |[0m [36mim
+port[0m { [33mButton
+[0m } [36mfrom[0m [3
+2m"@/components/ui/butt
+on"[0m;
+[31m[1m>[0m [90m11 
+|[0m [36mimport[0m {
+  [90m   |[0m [31m[
+1m^^^^^^^[0m
+[31m[1m>[0m [90m12 
+|[0m   [33mForm[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^[0m
+[31m[1m>[0m [90m13 
+|[0m   [33mFormContro
+l[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 
+|[0m   [33mFormField
+[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 
+|[0m   [33mFormItem[
+0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 
+|[0m   [33mFormLabel
+[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m17 
+|[0m   [33mFormMessag
+e[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m18 
+|[0m } [36mfrom[0m 
+[32m"@/components/ui/fo
+rm"[0m;
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^[0m
+  [90m19 |[0m [36mim
+port[0m { [33mInput[
+0m } [36mfrom[0m [32
+m"@/components/ui/input
+"[0m;
+  [90m20 |[0m [36mim
+port[0m { [33mCard[0
+m, [33mCardContent[0m
+, [33mCardDescription
+[0m, [33mCardFooter[0
+m, [33mCardHeader[0m,
+ [33mCardTitle[0m } 
+[36mfrom[0m [32m"@/c.
+..[0m
+  [90m21 |[0m
+
+Import map: aliased to 
+relative './src/compone
+nts/ui/form' inside of 
+[project]/DemoBoard
+
+
+Import traces:
+  Client Component Brow
+ser:
+    ./DemoBoard/src/app
+/login/page.tsx [Client
+ Component Browser]
+    ./DemoBoard/src/app
+/login/page.tsx [Server
+ Component]
+
+  Client Component SSR:
+    ./DemoBoard/src/app
+/login/page.tsx [Client
+ Component SSR]
+    ./DemoBoard/src/app
+/login/page.tsx [Server
+ Component]
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+./DemoBoard/src/app/sig
+nup/page.tsx:11:1
+Module not found: Can't
+ resolve '@/components/
+ui/form'
+  [90m 9 |[0m
+  [90m10 |[0m [36mim
+port[0m { [33mButton
+[0m } [36mfrom[0m [3
+2m"@/components/ui/butt
+on"[0m;
+[31m[1m>[0m [90m11 
+|[0m [36mimport[0m {
+  [90m   |[0m [31m[
+1m^^^^^^^[0m
+[31m[1m>[0m [90m12 
+|[0m   [33mForm[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^[0m
+[31m[1m>[0m [90m13 
+|[0m   [33mFormContro
+l[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m14 
+|[0m   [33mFormField
+[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m15 
+|[0m   [33mFormItem[
+0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^[0m
+[31m[1m>[0m [90m16 
+|[0m   [33mFormLabel
+[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m17 
+|[0m   [33mFormMessag
+e[0m,
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m18 
+|[0m } [36mfrom[0m 
+[32m"@/components/ui/fo
+rm"[0m;
+  [90m   |[0m [31m[
+1m^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^[0m
+  [90m19 |[0m [36mim
+port[0m { [33mInput[
+0m } [36mfrom[0m [32
+m"@/components/ui/input
+"[0m;
+  [90m20 |[0m [36mim
+port[0m { [33mCard[0
+m, [33mCardContent[0m
+, [33mCardDescription
+[0m, [33mCardFooter[0
+m, [33mCardHeader[0m,
+ [33mCardTitle[0m } 
+[36mfrom[0m [32m"@/c.
+..[0m
+  [90m21 |[0m
+
+Import map: aliased to 
+relative './src/compone
+nts/ui/form' inside of 
+[project]/DemoBoard
+
+
+Import traces:
+  Client Component Brow
+ser:
+    ./DemoBoard/src/app
+/signup/page.tsx [Clien
+t Component Browser]
+    ./DemoBoard/src/app
+/signup/page.tsx [Serve
+r Component]
+
+  Client Component SSR:
+    ./DemoBoard/src/app
+/signup/page.tsx [Clien
+t Component SSR]
+    ./DemoBoard/src/app
+/signup/page.tsx [Serve
+r Component]
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+    at <unknown> (./Dem
+oBoard/src/app/login/pa
+ge.tsx:11:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
+    at <unknown> (./Dem
+oBoard/src/app/signup/p
+age.tsx:11:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
